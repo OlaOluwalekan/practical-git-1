@@ -1,0 +1,44 @@
+/* Global Styles From MAIN BRANCH */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* blue colors */
+  --mainBlue: #0404b9;
+  --darkBlue: #040469;
+  --lightBlue: #5d5dfc93;
+
+  /* white color */
+  --mainWhite: #fff;
+
+  /* pink colors */
+  --mainPink: #f349e5;
+
+  /* cream colors */
+  --mainCream: #fff06a;
+}
+/* End of Global Styles From MAIN BRANCH */
+
+/* Intro Styles from MAIN BRANCH */
+.intro {
+  width: 100vw;
+  height: 80vh;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h1 {
+  font-size: 50px;
+}
+
+.intro span {
+  color: yellow;
+}
+/* End of intro styles from MAIN BRANCH */
